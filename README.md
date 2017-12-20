@@ -18,7 +18,7 @@ just added. Only last line is relevant (if it was not changed from default) and
 after change it might look like this:
 
 ```bash
-"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" -p dotbot-golang "${@}"
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" --plugin-dir=dotbot-golang "${@}"
 ```
 
 To use it, add go directive. Values can be simple (only package name) or more

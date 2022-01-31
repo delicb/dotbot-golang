@@ -25,10 +25,10 @@ To use it, add go directive. Values can be simple (only package name) or more
 detailed (dict with flags passed to `go get` command). Example:
 
 ```yaml
-- go
+- go:
   - github.com/delicb/cliware
-  -
-    package: github.com/delicb/cliware-middlewares
+  - package:
+    - github.com/delicb/cliware-middlewares
     flags: [-v, -u]
     stdout: true
     stderr: true
